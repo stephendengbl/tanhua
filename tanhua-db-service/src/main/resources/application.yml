@@ -1,0 +1,3 @@
+spring:
+  profiles:
+    active: dubbo,mapper  # 启动时，加载dubbo和mapper的配置文件

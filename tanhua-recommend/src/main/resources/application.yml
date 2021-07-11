@@ -1,0 +1,14 @@
+server:
+  port: 18082
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://192.168.136.160:27017/tanhua
+  redis:
+    host: 192.168.136.160
+    port: 6379
+    database: 0
+
+rocketmq:
+  name-server: 192.168.136.160:9876

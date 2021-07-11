@@ -1,0 +1,17 @@
+# dubbo配置
+dubbo:
+  application:
+    name: tanhua-mongo-service
+  protocol:
+    name: dubbo
+    port: 20882
+  registry:
+    address: zookeeper://192.168.136.160:2181
+  scan:
+    base-packages: com.itheima.service
+
+# mongo连接配置
+spring:
+  data:
+    mongodb:
+      uri: mongodb://192.168.136.160:27017/tanhua

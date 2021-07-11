@@ -1,0 +1,20 @@
+server:
+  port: 18089
+
+dubbo:
+  application:
+    name: tanhua-admin
+  registry:
+    address: zookeeper://192.168.136.160:2181
+    check: false
+    timeout: 500000
+
+
+spring:
+  redis:
+    host: 192.168.136.160
+    port: 6379
+    database: 1
+  data:
+    mongodb:
+      uri: mongodb://192.168.136.160:27017/tanhua
